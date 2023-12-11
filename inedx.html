@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Embedding YouTube video for educational purposes">
+ lets you download HD thumbnail images for free. Just enter the URL of the video for which the thumbnail needs to be saved.">
+
+    <title>YouTube Thumbnail Downloader</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Your custom stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Add your own favicon links here -->
+    <link rel="icon" type="image/png" sizes="32x32" href="your-favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="your-favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="your-apple-touch-icon.png">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/">Download YouTube Thumbnail</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://j.mp/2BI4t7d" target="_blank">Find YouTube Video Tags</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/posts">Posts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../../posts/privacy-policy/">Privacy Policy</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container mt-4">
+        <header class="text-center mb-4">
+            <p>Download YouTube and Vimeo thumbnail images of all quality for free. This application lets you download thumbnails of all quality. Just paste the URL of the thumbnail video in the below input and click Get Thumbnail Image.</p>
+        </header>
+
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+                <form class="downloadForm" onsubmit="event.preventDefault();initDownloadLinks();">
+                    <input aria-label="input URL" class="form-control mb-2" id="inputURL"
+                        placeholder="Enter the YouTube URL here" type="url" name="url" />
+                    <button class="btn btn-primary btn-block" id="submitButton" type="button">Get Thumbnail
+                        Images</button>
+                </form>
+
+                <!-- Add your design additions here -->
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-center mt-4">
+        <!-- Add your footer content here -->
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- Your custom scripts -->
+    <script src="your-scripts.js"></script>
+</body>
+
+</html>
